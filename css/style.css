@@ -15,18 +15,19 @@ body {
 
 .header {
     height: 120px;
-    background-color: #210439;
-    color: white;
-    background-image: url("../images/logo.png") no-repeat;
+    background: url('../images/logo.png') no-repeat, #210439;
+    background-size: contain;
 }
 
 .header h1 {
     margin-left: 500px;
     font-size: 26px;
+    color: white;
 }
 
 .header p {
     margin-left: 540px;
+    color: white;
 }
 
 .menu {
@@ -35,22 +36,27 @@ body {
 
 .menu ul {
     list-style-type: none;
-    position: absolute;
+    padding: 0;
+    margin: 0;
 }
 
 .menu li {
     float: left;
     background-color: #9376ac;
-    height: 50px;
+    border-right:1px solid white;
+    height: 48px;
 }
 
 .menu li a {
-    color: #e2dae9;
+    display: block;
+    color: white;
     font-size: 130%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .pattern {
@@ -60,12 +66,8 @@ body {
 
 .cen-image {
     height: 300px;
-}
-
-.cen-image img {
-    width: 100%;
-    height: 100%;
-
+    background-image: url("../images/fotofrontal.jpg") ;
+    overflow: hidden;
 }
 
 .grade {
@@ -122,14 +124,14 @@ th {
 
 .footer .span1 {
     position: absolute;
-    left: 410px;
+    left: 200px;
     top: 1130px;
     color: white;
 }
 
 .footer .span2 {
     position: absolute;
-    right: 420px;
+    right: 200px;
     top: 1190px;
     color: white;
 }
