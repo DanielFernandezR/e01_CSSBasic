@@ -117,4 +117,19 @@ th {
 
 .footer {
     height: 100px;
+    background-color: #210439;
+}
+
+.footer .span1 {
+    position: absolute;
+    left: 410px;
+    top: 1130px;
+    color: white;
+}
+
+.footer .span2 {
+    position: absolute;
+    right: 420px;
+    top: 1190px;
+    color: white;
 }
